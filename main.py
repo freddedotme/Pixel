@@ -28,8 +28,10 @@ def main():
                 system.data_obstacles.append(obstacle)
 
             if e.type == system.event_difficulty:
+
                 system.setting_difficulty += 1
                 print(system.setting_difficulty)
+
                 if system.setting_difficulty < 12:
                     system.setting_circle_radius -= 3
                     system.setting_velocity += 1

@@ -13,7 +13,8 @@ class Player:
     def update(self):
         if self.velocity > 0: self.velocity -= 0.1 * self.velocity
         self.y += self.system.setting_gravity - self.velocity
-        pygame.draw.circle(self.system.data_screen, self.color, (int(self.x), int(self.y)), self.system.setting_circle_radius)
+        pygame.draw.circle(self.system.data_screen, self.color, (int(self.x), int(self.y)),
+                           self.system.setting_circle_radius)
 
     def jump(self):
         self.velocity = self.system.setting_velocity

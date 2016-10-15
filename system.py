@@ -2,7 +2,6 @@ import pygame
 
 
 class System:
-
     setting_width = 1280
     setting_height = 720
     setting_size = (setting_width, setting_height)
@@ -23,5 +22,6 @@ class System:
     event_obstacle_spawn = pygame.USEREVENT + 1
     event_obstacle_spawn_time = 2000
     event_difficulty = pygame.USEREVENT + 2
+    event_difficulty_time = 10000
     pygame.time.set_timer(event_obstacle_spawn, event_obstacle_spawn_time)
-    pygame.time.set_timer(event_difficulty, 10000)
+    pygame.time.set_timer(event_difficulty, event_difficulty_time)
