@@ -28,7 +28,6 @@ def main():
                 system.data_obstacles.append(obstacle)
 
             if e.type == system.event_difficulty:
-
                 system.setting_difficulty += 1
                 print(system.setting_difficulty)
 
