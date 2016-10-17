@@ -20,7 +20,7 @@ class System:
     asset_example = ""
 
     event_obstacle_spawn = pygame.USEREVENT + 1
-    event_obstacle_spawn_time = 2000
+    event_obstacle_spawn_time = 5000
     event_difficulty = pygame.USEREVENT + 2
     event_difficulty_time = 10000
     pygame.time.set_timer(event_obstacle_spawn, event_obstacle_spawn_time)
