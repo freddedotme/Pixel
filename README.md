@@ -1,2 +1,2 @@
 # Pixel
-Flappy-bird in Python, still WIP.
+Flappy-bird game, still WIP.
